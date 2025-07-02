@@ -4,8 +4,8 @@ Este projeto consiste na criação de uma landing page institucional para o prod
 
 ## Tecnologias Utilizadas
 
-- **HTML e CSS:** Utilizados para estruturar e estilizar a landing page, aplicando conceitos de design responsivo para garantir boa experiência em diferentes dispositivos.  
-- **JavaScript:** Para adicionar interatividade simples, incluindo o controle e a exibição do vídeo no header da página. Foi implementada uma thumbnail com botão de play que, ao ser clicado, remove a imagem e inicia a reprodução do vídeo, melhorando a experiência do usuário. Além disso, foram usadas animações suaves que enriquecem a experiência visual.  
+- **HTML e CSS:** Utilizados para estruturar e estilizar a landing page, aplicando conceitos de design responsivo para garantir boa experiência em diferentes dispositivos.<br><br>
+- **JavaScript:** Para adicionar interatividade simples, incluindo o controle e a exibição do vídeo no header da página. Foi implementada uma thumbnail com botão de play que, ao ser clicado, remove a imagem e inicia a reprodução do vídeo, melhorando a experiência do usuário. Além disso, foram usadas animações suaves que enriquecem a experiência visual.<br><br>
 - **Git:** Controle de versão e hospedagem do código fonte.<br>
 
 ## Materiais fornecidos pelo cliente
@@ -32,3 +32,7 @@ https://biotechospitalar.com.br/biobag-eco/<br>
 ## Autor
 
 Enrico Clemente Amoroso<br><br>
+
+__________________________________________________________________________________________________________
+
+______________________________________________________________________________________________________
