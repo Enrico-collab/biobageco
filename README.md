@@ -35,4 +35,38 @@ Enrico Clemente Amoroso<br><br>
 
 __________________________________________________________________________________________________________
 
-______________________________________________________________________________________________________
+# Biobag Eco Project
+
+This project consists of the creation of an institutional landing page for the sustainable hospital product **Biobag Eco**, available at [https://biotechospitalar.com.br/biobag-eco/](https://biotechospitalar.com.br/biobag-eco/). The goal was to develop a clear, functional, and visually appealing page that communicates the product’s key features, facilitates access to information, and directs users to the company’s official quotation request channel.<br>
+
+## Technologies Used
+
+- **HTML and CSS**: Used to structure and style the landing page, applying responsive design principles to ensure a good user experience across different devices.<br><br>
+- **JavaScript**: Used to add simple interactivity, including the control and display of the video in the page header. A thumbnail with a play button was implemented; when clicked, it removes the image and starts the video playback, enhancing the user experience. Smooth animations were also used to enrich the visual interface.<br><br>
+- **Git**: Version control and code hosting.<br>
+
+## Client-Provided Materials
+
+The video used in the header, the visual identity elements, and the thumbnail were provided directly by the client, ensuring the landing page aligns with the Biotech Hospitalar brand.
+
+## Features and Content
+
+- **Header video**: Video integration to reinforce the product’s presentation, using JavaScript to control playback and user interaction.<br><br>
+- **Thumbnail with play button**: A static image with a play button is initially displayed over the video. The video only plays when the user interacts, optimizing page loading and usability.<br><br>
+- **Clear product presentation**: Highlights the main features and benefits of the Biobag Eco, with illustrative images and explanatory text.<br><br>
+- **Call-to-action buttons**: All buttons on the landing page redirect users to the quotation section on Biotech Hospitalar’s official website, making it easy to request a quote or get in touch.<br><br>
+- **Institutional information**: Sections that contextualize the product’s sustainable proposal.<br><br>
+- **Responsive design**: Adaptive layout that ensures smooth navigation on both mobile and desktop devices.<br>
+
+## User Experience
+
+The landing page was designed to be intuitive, with simple navigation and a focus on clarity, providing a pleasant journey from the first access to the official quotation redirection. The combination of clean design, integrated video with thumbnail control, and objective functionality aims to improve user understanding and engagement.<br>
+
+## Project Link
+
+https://biotechospitalar.com.br/biobag-eco/<br>
+
+## Author
+
+**Enrico Clemente Amoroso**
+
