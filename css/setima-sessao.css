@@ -1,0 +1,172 @@
+/* SETIMA SESSÃO - BENEFICIOS LOGÍSTICOS*/
+.beneficios-diferentes {
+  background-color: #f2f2f2;
+  padding: 80px 20px;
+  color: #111;
+  position: relative;
+}
+
+.beneficios-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1158px;
+  margin: 0 auto;
+  gap: 40px;
+  position: relative;
+}
+
+.beneficios-conteudo {
+  flex: 1 1 55%;
+}
+
+.beneficios-conteudo h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.beneficios-conteudo .subtitulo-menor {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #777;
+  margin-bottom: -33px;
+}
+
+.beneficios-conteudo .intro {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.beneficios-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.beneficios-lista li {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.beneficios-lista li i {
+  color: #bb2828;
+  font-size: 1.2rem;
+}
+
+.beneficios-imagem {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.beneficios-imagem img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 900px) {
+  .beneficios-container {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+
+  .beneficios-conteudo,
+  .beneficios-imagem {
+    flex: 1 1 100%;
+  }
+}
+
+/* RESPONSIVIDADE */
+/* SETIMA SESSÃO - BENEFICIOS LOGISTICOS */
+@media (max-width: 1024px) {
+  .beneficios-container {
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+  }
+
+  .beneficios-conteudo {
+    flex: 1 1 50%;
+  }
+
+  .beneficios-imagem {
+    flex: 1 1 45%;
+  }
+
+  .beneficios-conteudo h2 {
+    font-size: 1.8rem;
+  }
+
+  .beneficios-conteudo .intro {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .beneficios-container {
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+  }
+
+  .beneficios-conteudo,
+  .beneficios-imagem {
+    flex: 1 1 100%;
+    padding-left: 10px;
+  }
+
+  .beneficios-conteudo h2 {
+    font-size: 1.4rem;
+  }
+
+  .beneficios-conteudo .subtitulo-menor {
+    font-size: 1rem;
+    margin-bottom: -20px;
+  }
+
+  .beneficios-conteudo .intro {
+    font-size: 1rem;
+  }
+
+  .beneficios-lista li {
+    font-size: 0.9rem;
+  }
+
+  .beneficios-container {
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+  }
+
+  .beneficios-conteudo,
+  .beneficios-imagem {
+    flex: 1 1 100%;
+    padding-left: 10px;
+  }
+
+  .beneficios-conteudo h2 {
+    font-size: 1.4rem;
+  }
+
+  .beneficios-conteudo .subtitulo-menor {
+    font-size: 1rem;
+    margin-bottom: -20px;
+  }
+
+  .beneficios-conteudo .intro {
+    font-size: 1rem;
+  }
+
+  .beneficios-lista li {
+    font-size: 0.9rem;
+  }
+}

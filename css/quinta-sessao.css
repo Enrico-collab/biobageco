@@ -1,0 +1,195 @@
+/* QUINTA SESSAO - IMAGENS PRODUTOS */
+.biobag-detalhes {
+  background-color: #fafafa;
+  color: #111;
+  text-align: center;
+  padding: 0px 20px 60px 20px;
+  width: 100%;
+}
+
+.biobag-detalhes .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cabecalho-detalhes-logo img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 0;
+  margin-top: 45px;
+}
+
+.cabecalho-detalhes-texto h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.cabecalho-detalhes-texto p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.galeria-produto {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: stretch;
+  margin-bottom: 90px;
+}
+
+.imagem-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  flex: 1 1 260px;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.imagem-item img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.lista-detalhes {
+  list-style: none;
+  padding: 15px 0 0;
+  margin: 0;
+  text-align: left;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.lista-detalhes li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lista-detalhes li i {
+  color: #028337;
+  min-width: 16px;
+}
+
+/* RESPONSIVIDADE */
+/* QUINTA SESSAO - DETALHES PRODUTO */
+@media (max-width: 1024px) {
+  .cabecalho-detalhes-logo img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+
+  .cabecalho-detalhes-logo {
+    padding-top: 40px;
+  }
+
+  .cabecalho-detalhes-texto h2 {
+    font-size: 1.8rem;
+  }
+
+  .galeria-produto {
+    gap: 16px;
+  }
+
+  .imagem-item {
+    flex: 1 1 220px;
+    max-width: 220px;
+    padding: 12px;
+  }
+
+  .imagem-item img {
+    max-width: 220px;
+  }
+
+  .lista-detalhes {
+    font-size: 0.9rem;
+  }
+
+  .lista-detalhes li {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 767) {
+  .galeria-produto {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .galeria-produto::-webkit-scrollbar {
+    display: none;
+  }
+
+  .imagem-item {
+    flex: 0 0 auto;
+    max-width: 280px;
+    padding: 12px 16px;
+    scroll-snap-align: start;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+  }
+
+  .imagem-item:first-child {
+    margin-left: 500px;
+  }
+
+  .imagem-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .lista-detalhes {
+    font-size: 0.85rem;
+    padding-left: 18px;
+  }
+
+  .lista-detalhes li {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .cabecalho-detalhes-logo img {
+    max-width: 120px;
+    margin: 0 12px;
+    display: block;
+  }
+
+  .cabecalho-detalhes-texto {
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .cabecalho-detalhes-texto h2 {
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+    text-align: left;
+  }
+
+  .cabecalho-detalhes-texto p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+}

@@ -1,0 +1,179 @@
+/* OITAVA SESSÃO: PÚBLICO-ALVO */
+.logo-publico {
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.elementor img.logo-publico {
+  max-width: 250px !important;
+  margin-bottom: 10px;
+}
+
+.publico-alvo {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.publico-alvo h2 {
+  color: #333;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.publico-alvo .clinical-subtitle {
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+}
+
+.publico-alvo .columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.publico-alvo .column {
+  max-width: 280px;
+  padding: 20px;
+  text-align: center;
+}
+
+.publico-alvo .column img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.publico-alvo .column h3 {
+  font-size: 1.2rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.publico-alvo .column p {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.publico-alvo .resumo-publico {
+  margin-top: 40px;
+  font-size: 1rem;
+  color: #555;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* RESPONSIVIDADE */
+/* OITAVA SESSAO - PUBLICO ALVO E INTEGRAÇÃO */
+@media (max-width: 1024px) {
+  .publico-alvo .logo-publico {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+  }
+
+  .publico-alvo h2 {
+    font-size: 1.8rem;
+  }
+
+  .publico-alvo .clinical-subtitle {
+    font-size: 1rem;
+    margin-left: auto;
+  }
+
+  .publico-alvo .columns {
+    gap: 20px;
+  }
+
+  .publico-alvo .column {
+    max-width: 220px;
+    padding: 15px;
+  }
+
+  .publico-alvo .column h3 {
+    font-size: 1.1rem;
+  }
+
+  .publico-alvo .column p {
+    font-size: 0.9rem;
+  }
+
+  .publico-alvo .resumo-publico {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .publico-alvo {
+    padding: 40px 15px;
+    text-align: left;
+    display: block;
+    width: 100%;
+  }
+
+  .logo-publico {
+    max-width: 80px;
+    width: 180px !important;
+    height: auto;
+    display: block;
+    margin-left: 8px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    float: none;
+  }
+
+  .publico-alvo h2 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    margin-left: 16px;
+    text-align: left;
+  }
+
+  .publico-alvo .clinical-subtitle {
+    font-size: 1rem;
+    margin-bottom: 25px;
+    margin-left: 16px;
+    text-align: left;
+  }
+
+  .publico-alvo .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-left: 16px;
+  }
+
+  .publico-alvo .column {
+    max-width: 100%;
+    padding: 0;
+    text-align: left;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .publico-alvo .column img {
+    width: 48px;
+    margin-bottom: 10px;
+  }
+
+  .publico-alvo .column h3 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+
+  .publico-alvo .column p {
+    font-size: 0.95rem;
+  }
+
+  .publico-alvo .resumo-publico {
+    font-size: 0.95rem;
+    padding: 0;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,216 @@
+/* SEXTA SESSÃO - DIFERENCIAIS */
+.diferenciais-section {
+  background-color: #1a1a1a;
+  padding: 30px 20px 60px 20px;
+  color: white;
+}
+
+.diferenciais-section h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 2.2rem;
+  max-width: none;
+  margin: 0 auto 20px auto;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 2.6rem;
+}
+
+.diferenciais-section h2 .subtitulo-menor {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ccc;
+  text-align: center;
+  width: 100%;
+  margin-bottom: -35px;
+  display: block;
+}
+
+.diferenciais-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Divisões horizontais e verticais (linhas) */
+.diferenciais-grid::before,
+.diferenciais-grid::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: 2px solid #028337;
+  top: 33.33%;
+  left: 0;
+}
+
+.diferenciais-grid::after {
+  top: 66.66%;
+}
+
+.diferencial-item {
+  flex: 1 1 calc(33.333% - 30px);
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+/* Adicionando bordas verticais entre os itens */
+.diferencial-item:not(:last-child) {
+  border-right: 2px solid #028337;
+}
+
+/* Remover a borda vertical do lado de "Versátil" */
+.diferenciais-grid .diferencial-item:nth-child(6) {
+  border-right: none; /* Remover a borda direita de "Versátil" */
+}
+
+.diferenciais-grid .diferencial-item:nth-child(3) {
+  border-right: none; /* Remover a borda direita de "Versátil" */
+}
+
+.diferencial-item .icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+}
+
+.diferencial-item h3 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.diferencial-item p {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+/* RESPONSIVIDADE */
+/* SEXTA SESSAO - DIFERENCIAIS */
+@media (max-width: 1024px) {
+  .diferenciais-section {
+    padding: 50px 15px;
+  }
+
+  .diferenciais-section h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    max-width: 1157px;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+
+  .diferenciais-grid {
+    gap: 20px;
+  }
+
+  /* Remover linhas horizontais */
+  .diferenciais-grid::before,
+  .diferenciais-grid::after {
+    border: none;
+  }
+
+  .diferencial-item {
+    flex: 1 1 calc(50% - 20px);
+    border-right: none;
+    border-left: none;
+  }
+
+  /* Remover bordas indesejadas nas margens */
+  .diferenciais-grid .diferencial-item:nth-child(2),
+  .diferenciais-grid .diferencial-item:nth-child(4),
+  .diferenciais-grid .diferencial-item:nth-child(8) {
+    border-right: none;
+  }
+
+  /* Adicionar bordas verticais viradas para a direita */
+  .diferenciais-grid .diferencial-item:nth-child(3),
+  .diferenciais-grid .diferencial-item:nth-child(7) {
+    border-right: 2px solid #028337;
+  }
+
+  /* Ocultar "Não estéril" (item 9) */
+  .diferenciais-grid .diferencial-item:nth-child(9) {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .diferencial-item {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .diferenciais-section {
+    padding: 40px 10px;
+  }
+
+  .diferenciais-section h2 .subtitulo-menor {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .diferenciais-section h2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: left;
+  }
+
+  .diferenciais-grid {
+    gap: 15px;
+  }
+
+  .diferencial-item {
+    flex: 1 1 100%;
+    padding: 20px;
+    border-right: none !important;
+    border-bottom: none;
+  }
+
+  .diferenciais-grid .diferencial-item:nth-child(1),
+  .diferenciais-grid .diferencial-item:nth-child(2),
+  .diferenciais-grid .diferencial-item:nth-child(3),
+  .diferenciais-grid .diferencial-item:nth-child(4),
+  .diferenciais-grid .diferencial-item:nth-child(5),
+  .diferenciais-grid .diferencial-item:nth-child(6),
+  .diferenciais-grid .diferencial-item:nth-child(7) {
+    border-bottom: 2px solid #028337;
+  }
+
+  .diferenciais-grid .diferencial-item:nth-child(3),
+  .diferenciais-grid .diferencial-item:nth-child(7) {
+    border-right: none !important;
+  }
+
+  .diferencial-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .diferencial-item p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .diferencial-item {
+    flex: 1 1 100%;
+  }
+  .diferenciais-grid::before,
+  .diferenciais-grid::after {
+    border: none;
+  }
+
+  .diferencial-item:not(:last-child) {
+    border-right: none;
+  }
+}

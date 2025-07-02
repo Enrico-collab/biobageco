@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biobag Eco</title>
+  <!-- FAVICON-->
+  <link rel="icon" href="./imagens/favicon.png" sizes="64x64" type="image/png">
+  <link rel="shortcut icon" href="./imagens/favicon.png">
+  <!--FONTES GOOGLE-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!--CDN ICONES-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <!-- ARQUIVO CSS PRINCIPAL -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- ARQUIVO JS PRINCIPAL -->
+  <script src="./js/script.js" defer></script>
+
+</head>
+
+<body>
+  <!-- VIDEO -->
+  <header>
+    <div class="video-wrapper">
+      <div class="video-thumbnail" onclick="playVideo()">
+        <img src="http://biotechospitalar.com.br/wp-content/uploads/2025/06/Thumbanail-landing-page-scaled.png" alt="Clique para assistir ao vídeo" />
+        <div class="play-button"></div>
+      </div>
+
+      <video id="video" playsinline>
+        <source src="https://biotechospitalar.com.br/wp-content/uploads/2025/06/BIOTEC-Video-Biobag-Eco.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+      </video>
+      <div class="overlay"></div>
+    </div>
+
+    <!-- PRIMEIRA SESSÃO - INOVAÇÃO EM SISTEMAS -->
+    <section class="hero-section">
+      <img src="https://biotechospitalar.com.br/wp-content/uploads/2025/06/Logo-Biobag-Ecoo.jpeg" alt="Logo Biobag Eco" class="hero-logo">
+      <div class="hero-content">
+        <h1>Inovação em Sistemas de Drenagem</h1>
+        <p>
+          Tecnologia de última geração para hospitais que priorizam
+          <span class="nowrap">segurança, praticidade e sustentabilidade.</span>
+        </p>
+        <a href="https://biotechospitalar.com.br/orcamento/" class="btn-primary">Solicitar Orçamento</a>
+      </div>
+    </section>
+
+    <!-- SEGUNDA SESSÃO - PROBLEMAS METODOS ANTIGOS-->
+    <section class="highlight-section">
+      <h2>Problemas dos Métodos Antigos</h2>
+      <p>Por que substituir os sistemas tradicionais?</p>
+      <div class="columns">
+        <div class="column">
+          <h3>Aspirador de Vidro</h3>
+          <p>1ª geração: alto risco de infecção hospitalar e acidentes durante o reprocessamento.</p>
+        </div>
+        <div class="column">
+          <h3>Frascos Descartáveis</h3>
+          <p>2ª geração: equipamentos volumosos, pesados e com tecnologia ultrapassada.</p>
+        </div>
+        <div class="column destaque">
+          <h3>Biobag Eco</h3>
+          <p>3ª geração: moderno, leve, compacto, ecológico e seguro. Pensado para quem busca eficiência e inovação.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TERCEIRA SESSAO - APLICAÇÕES CLINICAS -->
+    <section class="clinical-apps">
+      <h2>Aplicações Clínicas</h2>
+      <p class="clinical-subtitle">Utilização versátil em diferentes ambientes hospitalares</p>
+      <div class="columns">
+        <div class="column">
+          <img src="https://img.icons8.com/ios-filled/100/hospital-bed.png" alt="UTI" />
+          <h3>UTI</h3>
+          <p>Pacientes intubados ou em ventilação mecânica.</p>
+        </div>
+        <div class="column">
+          <img src="https://img.icons8.com/ios-filled/100/surgery.png" alt="Cirurgias" />
+          <h3>Cirurgias</h3>
+          <p>Ortopédicas, neurológicas, gerais, lipoaspiração e outras que exigem aspiração segura.</p>
+        </div>
+        <div class="column">
+          <img src="https://img.icons8.com/ios-filled/100/syringe.png" alt="Procedimentos" />
+          <h3>Outros Procedimentos</h3>
+          <p>Ginecológicos, torácicos, plásticos, endoscópicos e controle de secreções na UTI.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUARTA SESSÃO: TAMANHOS DISPONÍVEIS -->
+    <section class="planos-section">
+      <div class="imagem-topo-direita">
+        <img src="http://biotechospitalar.com.br/wp-content/uploads/2025/06/Ativo-1-e1750098879892.png" alt="Imagem" />
+      </div>
+
+      <div class="planos-conteudo">
+        <h2>Tamanhos Disponíveis</h2>
+        <p>Escolha o modelo ideal para o seu ambiente hospitalar</p>
+        <div class="planos-grid">
+          <!--1000ml-->
+          <div class="plano branco">
+            <h3 class="plano-titulo prata">1000 ml</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Ideal para UTIs, PS e centro cirúrgico</li>
+              <li><i class="fas fa-check"></i> Uso em anestesia</li>
+              <li><i class="fas fa-check"></i> Suportes versáteis</li>
+              <li><i class="fas fa-check"></i> Aplicações variadas</li>
+            </ul>
+          </div>
+
+          <!--3000ml-->
+          <div class="plano destaque">
+            <h3 class="plano-titulo ouro">3000 ml</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Alto volume de secreções</li>
+              <li><i class="fas fa-check"></i> Ideal para centros cirúrgicos</li>
+              <li><i class="fas fa-check"></i> Compatível com efeito cascata</li>
+              <li><i class="fas fa-check"></i> Até 4x mais capacidade</li>
+              <li><i class="fas fa-check"></i> Suporte prolongado de aspiração</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUINTA SESSAO - IMAGENS PRODUTOS -->
+    <section class="biobag-detalhes">
+      <div class="container">
+        <div class="cabecalho-detalhes-logo">
+          <img src="http://biotechospitalar.com.br/wp-content/uploads/2025/06/logo-biobag-eco-sem-transparente.png" alt="Logo Biobag Eco" />
+        </div>
+        <div class="cabecalho-detalhes-texto">
+          <h2>Detalhes do Produto</h2>
+          <p>Veja o Biobag Eco em diferentes ângulos</p>
+        </div>
+        <div class="galeria-produto">
+          <div class="imagem-item">
+            <img src="http://biotechospitalar.com.br/wp-content/uploads/2025/06/Design-sem-nome-1.png" alt="Biobag Eco - Sistema completo" />
+            <ul class="lista-detalhes">
+              <li><i class="fas fa-check"></i> Tecnologia de vedação segura</li>
+              <li><i class="fas fa-check"></i> Prevenção de contaminação</li>
+            </ul>
+          </div>
+          <div class="imagem-item">
+            <img src="http://biotechospitalar.com.br/wp-content/uploads/2025/06/2.png" />
+            <ul class="lista-detalhes">
+              <li><i class="fas fa-check"></i> Drenagem independente por canister</li>
+              <li><i class="fas fa-check"></i> Montagem rápida e prática</li>
+            </ul>
+          </div>
+          <div class="imagem-item">
+            <img src="http://biotechospitalar.com.br/wp-content/uploads/2025/06/gfdfg.png" alt="Biobag Eco - Tampa e vedação" />
+            <ul class="lista-detalhes">
+              <li><i class="fas fa-check"></i> Sistema de drenagem por refil</li>
+              <li><i class="fas fa-check"></i> Suporte até 12 L por efeito cascata</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEXTA SESSÃO: DIFERENCIAIS TÉCNICOS -->
+    <section class="diferenciais-section">
+      <h2><span class="subtitulo-menor">Diferenciais do</span><br>Biobag Eco</h2>
+      <div class="diferenciais-grid">
+        <div class="diferencial-item">
+          <img src="https://img.icons8.com/fluency-systems-regular/48/028337/shield.png" alt="Mais seguro" class="icon" />
+          <h3>Mais seguro</h3>
+          <p>Válvula que bloqueia vírus, bactérias e líquidos.</p>
+        </div>
+        <div class="diferencial-item">
+          <img src="https://img.icons8.com/fluency-systems-regular/48/028337/weight.png" alt="Mais leve" class="icon" />
+          <h3>Mais leve</h3>
+          <p>Menos PVC, mais facilidade no descarte e transporte.</p>
+        </div>
+        <div class="diferencial-item">
+          <img src="https://img.icons8.com/fluency-systems-regular/48/028337/brick-wall.png" alt="Mais robusto" class="icon" />
+          <h3>Mais robusto</h3>
+          <p>Paredes espessas que evitam vazamentos, mesmo em quedas.</p>
+        </div>
+        <div class="diferencial-item">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#028337" viewBox="0 0 24 24">
+            <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" />
+          </svg>
+          <h3>Melhor sucção</h3>
+          <p>Fluxo até 28% maior.</p>
+        </div>
+        <div class="diferencial-item">
+          <img src="https://img.icons8.com/fluency-systems-regular/48/028337/stack.png" alt="Compacto e empilhável" class="icon" />
+          <h3>Compacto e empilhável</h3>
+          <p>Otimiza espaço em farmácias e almoxarifados.</p>
+        </div>
+        <div class="diferencial-item">
+          <img src="https://img.icons8.com/fluency-systems-regular/48/028337/wrench.png" alt="Versátil" class="icon" />
+          <h3>Versátil</h3>
+          <p>Suportes para fixação em mesas, trilhos, carrinhos e paredes.</p>
+        </div>
+        <div class="diferencial-item">
+          <img src="https://img.icons8.com/fluency-systems-regular/48/028337/lock-2.png" alt="Hermético e inovador" class="icon" />
+          <h3>Hermético e inovador</h3>
+          <p>Tampo autovedante e compatível com vários extensores.</p>
+        </div>
+        <div class="diferencial-item">
+          <img src="https://img.icons8.com/fluency-systems-regular/48/028337/trash.png" alt="Descartável e prático" class="icon" />
+          <h3>Descartável e prático</h3>
+          <p>Reduz infecção e tempo de trabalho profissional.</p>
+        </div>
+        <div class="diferencial-item">
+          <img src="https://img.icons8.com/fluency-systems-regular/48/028337/hourglass.png" alt="Não estéril" class="icon" />
+          <h3>Não estéril</h3>
+          <p>Menor custo, ganho de tempo e montagem rápida entre cirurgias.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SETIMA SESSÃO: BENEFÍCIOS LOGÍSTICOS E TÉCNICOS -->
+    <section class="beneficios-diferentes">
+      <div class="beneficios-container">
+        <div class="beneficios-conteudo">
+          <h2><span class="subtitulo-menor">Conheça os</span><br>Benefícios Logísticos e Técnicos</h2>
+          <p class="intro">O Biobag Eco foi projetado para simplificar processos hospitalares e otimizar a rotina médica com praticidade e segurança.</p>
+
+          <ul class="beneficios-lista">
+            <li><i class="fas fa-check-circle"></i> Armazenamento compacto e empilhável</li>
+            <li><i class="fas fa-check-circle"></i> Redução no tempo de descarte</li>
+            <li><i class="fas fa-check-circle"></i> Menor risco de vazamentos e contaminação</li>
+            <li><i class="fas fa-check-circle"></i> Integração com suportes diversos</li>
+            <li><i class="fas fa-check-circle"></i> Transporte otimizado em grandes volumes</li>
+          </ul>
+        </div>
+        <div class="beneficios-imagem">
+          <img src="http://biotechospitalar.com.br/wp-content/uploads/2025/06/blood-research-concept-illustration.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- OITAVA SESSÃO: PÚBLICO-ALVO E INTEGRAÇÃO HOSPITALAR -->
+    <section class="publico-alvo">
+      <img src="http://biotechospitalar.com.br/wp-content/uploads/2025/06/Logo-Biobag-Ecoo.jpeg" alt="Logo Biobag Eco" class="logo-publico" />
+      <h2>Público-alvo e Integração hospitalar</h2>
+      <p class="clinical-subtitle">O Biobag Eco é indicado para diversos setores hospitalares:</p>
+      <div class="columns">
+        <div class="column">
+          <img src="https://img.icons8.com/ios-filled/100/health-checkup.png" alt="Enfermagem" />
+          <h3 class="titulo-icone">Equipe de Enfermagem</h3>
+          <p>UTI - Centro Cirúrgico - CME - CCIH/SCIH</p>
+        </div>
+        <div class="column">
+          <img src="https://img.icons8.com/ios-filled/100/doctor-male.png" alt="Equipe Médica" />
+          <h3 class="titulo-icone">Equipe Médica e Fisioterapia</h3>
+          <p>Uso clínico e suporte a procedimentos complexos</p>
+        </div>
+        <div class="column">
+          <img src="https://img.icons8.com/ios-filled/100/shopping-cart.png" alt="Compras" />
+          <h3 class="titulo-icone">Compras e Padronização</h3>
+          <p>Facilidade na adesão institucional e compras centralizadas</p>
+        </div>
+      </div>
+      <p class="clinical-subtitle resumo-publico">A introdução do Biobag Eco envolve avaliação técnica e integração com setores-chave para garantir aceitação e adesão eficazes.</p>
+    </section>
+
+    <!--NONA SESSÃO - CTA-->
+    <section class="cta-final">
+      <div class="overlay-cta">
+        <h2>
+          <span class="cta-pre">Inove com confiança.</span><br>
+          <span class="cta-main nowrap">Biobag Eco - a escolha segura para o seu hospital</span>
+        </h2>
+        <p class="cta-sub">Um novo padrão para drenagem hospitalar.</p>
+        <div class="cta-botoes">
+          <a href="https://biotechospitalar.com.br/orcamento/" class="btn-primary">Solicitar Orçamento</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+    </footer>
+</body>
+
+</html>
