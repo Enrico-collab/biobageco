@@ -1,6 +1,6 @@
 # Projeto Biobag Eco
 
-Este projeto consiste na criação de uma landing page institucional para o produto hospitalar sustentável Biobag Eco, disponível em [https://biotechospitalar.com.br/biobag-eco/](https://biotechospitalar.com.br/biobag-eco/). O objetivo foi desenvolver uma página clara, funcional e visualmente atraente que comunique os diferenciais do produto, facilite o acesso às informações e direcione os usuários para o canal oficial de orçamentos da empresa.<br>
+Este projeto consiste na criação de uma landing page institucional para o produto hospitalar sustentável Biobag Eco. O objetivo foi desenvolver uma página clara, funcional e visualmente atraente que comunique os diferenciais do produto, facilite o acesso às informações e direcione os usuários para o canal oficial de orçamentos da empresa.<br>
 
 ## Tecnologias Utilizadas
 
@@ -35,7 +35,7 @@ ________________________________________________________________________________
 
 # Biobag Eco Project
 
-This project consists of the creation of an institutional landing page for the sustainable hospital product **Biobag Eco**, available at [https://biotechospitalar.com.br/biobag-eco/](https://biotechospitalar.com.br/biobag-eco/). The goal was to develop a clear, functional, and visually appealing page that communicates the product’s key features, facilitates access to information, and directs users to the company’s official quotation request channel.<br>
+This project consists of the creation of an institutional landing page for the sustainable hospital product **Biobag Eco**. The goal was to develop a clear, functional, and visually appealing page that communicates the product’s key features, facilitates access to information, and directs users to the company’s official quotation request channel.<br>
 
 ## Technologies Used
 
