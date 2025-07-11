@@ -25,9 +25,7 @@ O vídeo utilizado no header, a identidade visual e a thumbnail foram fornecidos
 
 A landing page foi projetada para ser intuitiva, com navegação simples e foco na clareza da mensagem, proporcionando uma jornada agradável desde o primeiro acesso até o direcionamento para o orçamento oficial. A combinação de design limpo, vídeo integrado com controle via thumbnail e funcionalidades objetivas visa facilitar o entendimento e engajamento do público-alvo.<br>
 
-## Link para acesso ao projeto
 
-https://biotechospitalar.com.br/biobag-eco/<br>
 
 ## Autor
 
@@ -62,9 +60,6 @@ The video used in the header, the visual identity elements, and the thumbnail we
 
 The landing page was designed to be intuitive, with simple navigation and a focus on clarity, providing a pleasant journey from the first access to the official quotation redirection. The combination of clean design, integrated video with thumbnail control, and objective functionality aims to improve user understanding and engagement.<br>
 
-## Project Link
-
-https://biotechospitalar.com.br/biobag-eco/<br>
 
 ## Author
 
